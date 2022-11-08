@@ -1,6 +1,13 @@
 # mkplace-node-api  
 Api node de gerenciamento de produtos.
 
+## O problema
+Um usuário quer visualizar a lista de produtos com possibilidade de filtrá-los por "nome", "marca", "vendedor" e "faixa de preço", e ver os detalhes de um produto
+específico. Crie uma aplicação CRUD (salvar, alterar, consultar e excluir) com os 
+seguintes critérios:
+1. Listar produtos com filtro: /products;
+2. Exibir detalhes do produto: /product/[slug-do-produto];
+
 ## Passos
 ### 1) Clone o repositório e instale as dependências
 ``` 
