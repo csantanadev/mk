@@ -2,7 +2,7 @@ import { StatusCodes } from 'http-status-codes';
 import { NextFunction, Request, Response } from "express";
 import { productSchema } from "../viewModel/ProductSchema";
 
-const productShemaValidator = async (request: Request, response: Response, next: NextFunction) => {
+const productSchemaValidator = async (request: Request, response: Response, next: NextFunction) => {
 
     try {
         const valid = await productSchema.validate(request.body)
@@ -15,4 +15,4 @@ const productShemaValidator = async (request: Request, response: Response, next:
 
 }
 
-export { productShemaValidator }
+export { productSchemaValidator }
