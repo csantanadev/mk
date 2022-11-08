@@ -18,7 +18,7 @@ npm install
 ```
 ### 2) Renomear o .env.example para .env 
 ``` 
-Preencha os dados de PORT=3333, DATABASE_URL=<sua url mongoDB atlas>
+Preencha os dados de PORT=3333, LIMIT=10 e DATABASE_URL=<sua url mongoDB atlas>
 ```
 ### 3) Rodando o servidor
 ``` 
