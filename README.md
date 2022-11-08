@@ -88,10 +88,11 @@ npm run dev
 
 #### GET - /products/?filter
 Filtros possíveis: name, brand, seller e price (1-100)
+<br/>
 Adicionado paginação: /products/?page=1
 <br/>
 Exemplo: /products/?price=1-100&page=1
-					
+
 ##### request - no body
 ##### response - 200
 ```json
