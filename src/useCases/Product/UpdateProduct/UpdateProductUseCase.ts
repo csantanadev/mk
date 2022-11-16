@@ -12,7 +12,7 @@ export class UpdateProductUseCase {
 
         const productExists = await this.updateProductRepository.findById(id);
 
-        if (productExists) {
+        if (!productExists) {
             throw new NotFoundError('Product does not exists.')
         }
 
