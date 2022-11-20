@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-test("Should find a product by brand", async function () {
+test("Should be able to find a product by brand", async function () {
 
     const response = await axios({
         url: "http://localhost:3333/products/?brand=Sansung",
@@ -13,7 +13,7 @@ test("Should find a product by brand", async function () {
 });
 
 
-test("Should find a product by brand and price", async function () {
+test("Should be able to find a product by brand and price", async function () {
 
     const response = await axios({
         url: "http://localhost:3333/products/?brand=Sansung&price=1-2000",
@@ -25,7 +25,7 @@ test("Should find a product by brand and price", async function () {
 
 });
 
-test("Should find a product by seller, brand and price", async function () {
+test("Should be able to find a product by seller, brand and price", async function () {
 
     const response = await axios({
         url: "http://localhost:3333/products/?seller=Sansung&brand=Sansung&price=1-2000",

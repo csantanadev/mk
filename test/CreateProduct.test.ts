@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-test("Should create a product", async function () {
+test("Should be able to create a new product", async function () {
 
     const code = `${Math.floor(Math.random() * 1000)}`;
 

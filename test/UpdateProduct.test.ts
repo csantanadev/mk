@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-test("Should update a product", async function () {
+test("Should be able to update a product", async function () {
 
     const response = await axios({
         url: "http://localhost:3333/products/",
